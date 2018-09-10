@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2014 Richard Hughes <richard@hughsie.com> -->
 <application>
-  <id type="desktop">openarena.desktop</id>
+  <id type="desktop">ws.openarena.OpenArena.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <summary>Free and open source first-person shooter</summary>

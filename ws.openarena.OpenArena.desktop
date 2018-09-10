@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=OpenArena
 Comment=First person shooter
-Icon=openarena
+Icon=ws.openarena.OpenArena
 Exec=openarena
 Terminal=false
 Type=Application

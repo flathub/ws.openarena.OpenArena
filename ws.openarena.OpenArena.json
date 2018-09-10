@@ -13,9 +13,6 @@
         "--persist=.openarena"
     ],
     "command": "openarena",
-    "rename-appdata-file": "openarena.appdata.xml",
-    "rename-desktop-file": "openarena.desktop",
-    "rename-icon": "openarena",
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
@@ -98,24 +95,24 @@
                 },
                 {
                     "type": "file",
-                    "path": "openarena.png"
+                    "path": "ws.openarena.OpenArena.png"
                 },
                 {
                     "type": "file",
-                    "path": "openarena.appdata.xml"
+                    "path": "ws.openarena.OpenArena.appdata.xml"
                 },
                 {
                     "type": "file",
-                    "path": "openarena.desktop"
+                    "path": "ws.openarena.OpenArena.desktop"
                 }
             ],
             "post-install": [
                 "mkdir -p /app/share/appdata",
-                "cp openarena.appdata.xml /app/share/appdata",
+                "cp ws.openarena.OpenArena.appdata.xml /app/share/appdata",
                 "mkdir -p /app/share/applications",
-                "cp openarena.desktop /app/share/applications",
+                "cp ws.openarena.OpenArena.desktop /app/share/applications",
                 "mkdir -p /app/share/icons/hicolor/128x128/apps",
-                "cp openarena.png /app/share/icons/hicolor/128x128/apps",
+                "cp ws.openarena.OpenArena.png /app/share/icons/hicolor/128x128/apps",
                 "mv /app/bin/openarena.* /app/bin/openarena"
             ]
         }
