@@ -4,6 +4,10 @@
   <id type="desktop">ws.openarena.OpenArena.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
+  <provides>
+    <id>openarena.desktop</id>
+  </provides>
+  <name>OpenArena</name>
   <summary>Free and open source first-person shooter</summary>
   <description>
     <p>
