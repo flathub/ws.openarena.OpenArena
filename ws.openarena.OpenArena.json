@@ -1,7 +1,7 @@
 {
     "app-id": "ws.openarena.OpenArena",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "finish-args": [
         "--device=all",
@@ -21,7 +21,7 @@
         "*.la", "*.a"
     ],
     "modules": [
-        "shared-modules/glu/glu-9.0.0.json",
+        "shared-modules/glu/glu-9.json",
         "shared-modules/SDL/SDL-1.2.15.json",
         {
             "name": "openarena-data",
