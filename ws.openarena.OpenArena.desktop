@@ -6,3 +6,4 @@ Exec=openarena
 Terminal=false
 Type=Application
 Categories=Game;ActionGame;
+PrefersNonDefaultGPU=true
