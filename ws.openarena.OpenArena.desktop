@@ -6,4 +6,5 @@ Exec=openarena
 Terminal=false
 Type=Application
 Categories=Game;ActionGame;
+Keywords=arena;quake;q3a;
 PrefersNonDefaultGPU=true
