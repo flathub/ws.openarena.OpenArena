@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2014 Richard Hughes <richard@hughsie.com> -->
-<application>
-  <id type="desktop">ws.openarena.OpenArena.desktop</id>
+<component type="desktop-application">
+  <id>ws.openarena.OpenArena</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <provides>
     <id>openarena.desktop</id>
   </provides>
+  <launchable type="desktop-id">ws.openarena.OpenArena.desktop</launchable>
   <name>OpenArena</name>
+  <developer_name>OA Team</developer_name>
   <summary>Free and open source first-person shooter</summary>
   <description>
     <p>
@@ -27,12 +29,12 @@
   </description>
   <url type="homepage">http://www.openarena.ws/</url>
   <screenshots>
-    <screenshot type="default">http://www.openarena.ws/e107_images/custom/085-1.jpg</screenshot>
-    <screenshot>http://www.openarena.ws/e107_images/custom/085-6.jpg</screenshot>
-    <screenshot>http://www.openarena.ws/e107_images/custom/085-16.jpg</screenshot>
+    <screenshot type="default"><image>http://www.openarena.ws/e107_images/custom/085-1.jpg</image></screenshot>
+    <screenshot><image>http://www.openarena.ws/e107_images/custom/085-6.jpg</image></screenshot>
+    <screenshot><image>http://www.openarena.ws/e107_images/custom/085-16.jpg</image></screenshot>
   </screenshots>
   <!-- FIXME: change this to an upstream email address for spec updates
-  <updatecontact>someone_who_cares@upstream_project.org</updatecontact>
+  <update_contact>someone_who_cares@upstream_project.org</update_contact>
    -->
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
@@ -59,4 +61,4 @@
   <releases>
     <release version="0.8.8" date="2012-02-20"/>
   </releases>
-</application>
+</component>
