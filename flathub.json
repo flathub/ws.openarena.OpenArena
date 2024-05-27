@@ -1,0 +1,4 @@
+{
+  "end-of-life": "The original Flatpak has multiple problems that are hard to fix and it was decided to EOL it in favor of io.github.ec_.Quake3e.OpenArena that works without issues",
+  "end-of-life-rebase": "io.github.ec_.Quake3e.OpenArena"
+}
